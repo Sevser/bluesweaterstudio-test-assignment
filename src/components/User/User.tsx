@@ -1,5 +1,5 @@
-import { Avatar } from "@mui/material";
 import React from "react";
+import { Avatar } from "@mui/material";
 import { ReactComponent as Hemplet } from '../../assets/helmet.svg';
 import { Color } from "../../types/color";
 import { IUser } from "../../types/IUser";
@@ -19,7 +19,7 @@ const User = ({ user }: { user: IUser }) => (<div className="user">
                 {formatRaceTime(user.time)}
             </div>
             <div className="speed">
-                {user.speed}km/h
+                {user.speed} km/h
             </div>
         </div>
     </div>
