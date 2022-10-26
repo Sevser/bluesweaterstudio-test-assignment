@@ -1,9 +1,11 @@
 import React from "react";
+import { IUser } from "../../types/User";
+import User from "../User/User";
 
-function UserList() {
-    return (<div>
-        
-    </div>);
-}
+const userList = new Array<IUser>();
+
+const UserList = () => (<div>
+    {userList.map(user => <User key={user.name} user={user} />)}
+</div>);
 
 export default UserList;

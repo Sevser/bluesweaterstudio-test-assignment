@@ -1,9 +1,8 @@
 import React from "react";
+import { IUser } from "../../types/User";
 
-function User() {
-    return (<div>
-        user
-    </div>);
-}
+const User = ({ user }: { user: IUser }) => (<div>
+    {JSON.stringify(user)}
+</div>);
 
 export default User;

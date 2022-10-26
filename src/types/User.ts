@@ -1,6 +1,6 @@
 import { Color } from "./color";
 
-export interface User {
+export interface IUser {
     // Любимый цвет
     color: Color;
     // Полное имя
