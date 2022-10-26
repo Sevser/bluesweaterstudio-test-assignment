@@ -1,12 +1,17 @@
 .user-list {
-
+    display: grid;
+    width: min-content;
 }
 
 .user-list-item {
     display: flex;
     flex-direction: row;
+    align-items: center;
 }
 
 .user-index {
-
+    font-weight: bold;
+    margin: 0 1rem;
+    grid-column: 1;
+    align-self: center;
 }

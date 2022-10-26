@@ -1,12 +1,40 @@
 .user {
     display: flex;
+    margin-bottom: 0.25rem;
+    grid-column: 2;
 }
 
 .information {
     display: flex;
     flex-direction: column;
+    width: -webkit-fill-available;
+    margin-left: 0.5rem;
+}
+
+.name {
+    white-space: nowrap;
+    text-align: left;
+    font-weight: 500;
 }
 
 .svg {
-    border-radius: 50%;
+    height: 50px;
+}
+
+.svg[color="RED"] path:not([fill="white"]) {
+    fill: red;
+}
+
+.svg[color="GREEN"] path:not([fill="white"]) {
+    fill: green;
+}
+
+.time-speed {
+    display: flex;
+    color: cornflowerblue;
+}
+
+.time::after {
+    content: '|';
+    margin: 0 0.75rem 0 1.75rem;
 }
