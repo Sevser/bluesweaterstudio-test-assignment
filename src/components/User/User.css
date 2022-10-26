@@ -1,0 +1,12 @@
+.user {
+    display: flex;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+}
+
+.svg {
+    border-radius: 50%;
+}
