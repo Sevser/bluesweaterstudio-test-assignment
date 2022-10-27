@@ -1,6 +1,8 @@
 # frontend-task
 test-assignment Frontend-developer
 
+[check it out here](#типы-данных)
+
 ## Описание
 
 Представьте, что вам пришел заказ от очень популярной мини-игры в достаточно 

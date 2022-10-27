@@ -1,5 +1,6 @@
 {
   "name": "bluesweaterstudio-test-assignment",
+  "homepage": "https://sevser.github.io/bluesweaterstudio-test-assignment/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -15,6 +16,7 @@
     "@types/react": "^18.0.23",
     "@types/react-dom": "^18.0.7",
     "eslint-plugin-react": "^7.31.10",
+    "gh-pages": "^4.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
@@ -26,6 +28,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "lint": "eslint src/**/*.js src/**/*.jsx",
+    "deploy": "gh-pages -d build",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
