@@ -1,5 +1,5 @@
 # frontend-task
-Тестовое задание для Frontend-разработчиков
+test-assignment Frontend-developer
 
 ## Описание
 

@@ -1,6 +1,10 @@
 .user-list {
     display: grid;
     width: min-content;
+    max-height: 100%;
+    overflow: auto;
+    transition: all 4s ease-in-out;
+    padding: 2rem 0;
 }
 
 .user-list-item {
